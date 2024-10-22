@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*------Color variables------*/
+    --2: #ec744a;
+    --black_900: #000000;
+    --blue_gray_100: #cccccc;
+    --green_400: #5eb47c;
+    --green_900_7c: #1868347c;
+    --light_green_50: #edfcf1;
+    --neutrals_900: #3d3d3d;
+    --teal_600: #068e7e;
+    --teal_700: #007d6e;
+    --txt_0: #1a1a1a;
+    --txt_1: #ffffff;
+
+    /*------Border radius variables------*/
+    --radius-xs: 30px;
+    --radius-sm: 52px;
+    --radius-md: 100px;
+
+
+    --space-xs: 4px;
+    --space-sm: 48px;
+    --space-md: 50px;
+    --space-lg: 314px;
+  }
+}
+@layer components {
+
+  .container-xs {
+    @apply w-full mx-auto max-w-[1596px];
+  }
+}
